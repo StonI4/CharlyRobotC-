@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>reglagefraise</class>
+ <widget class="QDialog" name="reglagefraise">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>309</width>
+    <height>227</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background : rgb(77, 86, 86  );
+color: white;</string>
+  </property>
+  <widget class="QPushButton" name="Valider_Fraise">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>170</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#Valider_Fraise{
+background: rgb(52, 152, 219);
+border-radius:5px;
+ }
+#Valider_Fraise::hover { 
+background : rgb(21, 67, 96 );
+color:white;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Valider</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Texte_Longeur_Fraise">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Longeur de la Fraise (mm)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Texte_Epaisseur_Fraise">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Epaisseur de la Fraise (mm)</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="Valeur_Longeur_Fraise">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>20</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="Valeur_Epaisseur_Fraise">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>80</y>
+     <width>62</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
